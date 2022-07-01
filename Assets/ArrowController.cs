@@ -33,6 +33,7 @@ public class ArrowController : MonoBehaviour
             GameObject director = GameObject.Find("GameDirector");
             director.GetComponent<GameDirector>().DecreaseHp();
             GetComponent<AudioSource>().Play();
+            Debug.Log("Sound!");
 
             Destroy(gameObject);
         }
