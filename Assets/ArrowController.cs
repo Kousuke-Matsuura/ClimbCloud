@@ -35,7 +35,7 @@ public class ArrowController : MonoBehaviour
             GetComponent<AudioSource>().Play();
             Debug.Log("Sound!");
 
-            Destroy(gameObject);
+            Destroy(gameObject, 1.0f);
         }
     }
 }

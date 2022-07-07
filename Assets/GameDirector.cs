@@ -19,6 +19,7 @@ public class GameDirector : MonoBehaviour
     public void DecreaseHp()
     {
         this.hpGauge.GetComponent<Image>().fillAmount -= 0.1f;
+        //ここで音鳴らしたら？？（仮）
     }
 
     // Update is called once per frame
